@@ -1,0 +1,24 @@
+/* h1 Element Selector */
+h1 {
+    color : red ;
+}
+
+/*class="coba" = Class Selector (Harus pake titik)*/
+.coba {
+    color: blue;
+}
+
+/*id="Hijau" = Id Selector (Harus pake #)*/
+#Hijau {
+    color: green;
+}
+
+/*draggable="true" = Atribut Selector*/
+h2[draggable]{
+    color: brown;
+}
+
+/* * = selctor universal*/
+* {
+    background-color: gold;
+}
